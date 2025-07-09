@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #17c200;
+}
+
+.site-header {
+    background-color: #004d00;
+    color: white;
+    padding: 20px;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile1, .profile2, .profile3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.profile1 {
+    background: rgb(77, 255, 77);
+}
+
+.profile2 {
+    background: rgb(206, 19, 19);
+}
+
+.profile3 {
+    background: rgb(137, 80, 207);
+}
+
+.profile1 img, .profile2 img, .profile3 img {
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.profile1 p, .profile2 p, .profile3 p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.koment {
+    display: flex;
+    justify-content: space-around;
+    background: #bbeeee;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.koment p {
+    margin: 0;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    background-color: #f1a9d2;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
